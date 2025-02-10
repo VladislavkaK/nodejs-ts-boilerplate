@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-ts-boilerplate",
+  "version": "1.0.0",
+  "description": "Node.js + TypeScript + MongoDB Boilerplate",
+  "main": "dist/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node dist/index.js",
+    "dev": "nodemon src/index.ts",
+    "lint": "eslint . --ext .ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.3",
+    "ts-node": "10.9.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.15",
+    "@types/node": "^18.14.2",
+    "eslint": "^8.35.0",
+    "nodemon": "^2.0.22",
+    "prettier": "^2.8.4",
+    "typescript": "^5.0.4"
+  },
+  "author": "V.Kuznetsov <kuznetsovvladislav2991@gmail.com> (http://test.ru/)",
+  "license": "MIT"
+}
